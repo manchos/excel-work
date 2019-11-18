@@ -50,6 +50,7 @@ def set_cli_argument_parse():
         description="Для создания excel файлов с заменой ячейки на значения "
                     "ячеек выбраного диапазоана "
     )
+
     parser.add_argument("-dfile", "--donor_file", dest="donor_file",
                         help="устанавливает имя файла откуда берется диапазон")
     parser.add_argument('-dcells', '--donor_cells', nargs=2, dest="donor_cells",
