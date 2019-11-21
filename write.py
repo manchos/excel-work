@@ -4,6 +4,7 @@ import argparse
 import re
 
 
+
 def set_filename(filename, add_str=''):
     match_str = re.match(r"(.*), г\. (\w+), ([а-яА-ЯёЁ\.\-\d ]+), (.*), (.*)", add_str)
     if not match_str:

@@ -105,10 +105,10 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+*.jpg
 
-
-
+WatsApp_*.txt
 Техкарта.xlsx
-address_.xlsx
+*.xlsx
 tech_maps/
 
